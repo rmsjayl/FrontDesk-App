@@ -1,0 +1,60 @@
+div.container {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  padding: 10px;
+}
+
+table.tabledata {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table.tabledata thead {
+  position: sticky;
+  top: 0;
+  color: #fff;
+  background-color: #000;
+}
+
+table.tabledata td,
+table.tabledata th {
+  padding: 10px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.configure {
+  margin-top: 15px;
+  padding: 50px;
+}
+
+.packageNameInput {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.packageNameInput label {
+  text-align: left;
+}
+
+.userInput {
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.confirmButton {
+  display: flex;
+  gap: 10px;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
